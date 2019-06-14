@@ -4,9 +4,6 @@ body {
     background: url('images/dice.jpg') no-repeat center fixed;
     background-size: cover;
 }
-.help {
-    height:150px;
-}
 #button1,#button2 {
     background-color: #008CBA;
     border: none;
@@ -48,7 +45,7 @@ body {
     }
   }
 #oneBoard,#twoBoard {
-    height: 210px;
+    height: 300px;
     width: 250px;
     text-align: center;
 }
