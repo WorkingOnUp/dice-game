@@ -9,22 +9,23 @@
     
 </head>
 <body onload="initialRender()">
-    <div class="row">
-        <div class="column" id="oneBoard">
-            <div class="textOneBoard"></div>
-            <div class="scoreOneBoard"></div>
-            <button id="button1">Next Turn</button>
+    <div class="help"></div>
+        <div class="row flex-container">
+            <div class="column" id="oneBoard">
+                <div class="textOneBoard"></div>
+                <div class="scoreOneBoard"></div>
+                <button id="button1">Next Turn</button>
+            </div>
+            <div class="column" id="twoBoard">
+                <div class="textTwoBoard"></div>
+                <div class="scoreTwoBoard"></div>
+                <button id="button2" style="display: none;">Next Turn</button>
+            </div>
         </div>
-        <div class="column" id="twoBoard">
-            <div class="textTwoBoard"></div>
-            <div class="scoreTwoBoard"></div>
-            <button id="button2">Next Turn</button>
+        <br>
+        <div id="restartButton">
+            <button id="restart">Restart Game?</button>
         </div>
-    </div>
-    <br>
-    <div id="restartButton">
-        <button id="restart">Restart Game?</button>
-    </div>
 
     <script type="text/javascript" src="working.js"></script>
 
